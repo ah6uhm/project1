@@ -1,68 +1,123 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCT360 - Project 1</title>
+    <title>The Final Whistle - Weekend Recap</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="site-header">
-        <div class="logo">Logo</div>
-
+        <div class="logo"><img src="assets/logo.webp" alt=" FIFA logo"></div>
         <nav class="nav-links">
             <a href="index.html">Home</a>
-            <a href="detail.html">Case Study</a>
-            <a href="#">Contact</a>
+            <a href="detail.html">Matches &amp; Stats</a>
+            <a href="#">News</a>
         </nav>
     </header>
 
     <main class="container">
         <section class="hero-grid">
             <article class="hero-banner">
-                <h1>Primary Spotlight Banner</h1>
-                <p>Subtitle</p>
-                <button class="btn-primary">Call to Action</button>
+                <img class="hero-img" src="assets/hero.jpg" alt="Spain players celebrating with the World Cup trophy">
+                <h1>Spain Crowned Champions, and Now No. 1</h1>
+                <p>Spain beat Argentina 1&ndash;0 in extra time to win the 2026 World Cup, then took over the top spot in the world rankings.</p>
+                <a class="btn-primary" href="detail.html">Meet the Champions</a>
             </article>
 
             <aside class="hero-sidebar">
-                <h2>Secondary Info / Quick Links</h2>
-                <p>Bio / Contact / Status</p>
-                <h2>Quick Links List</h2>
-                <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                </ul>
+                <h2>Men's World Ranking</h2>
+                <table class="rank-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="top">
+                            <td>1</td>
+                            <td>
+                                <a class="aside-link" href="detail.html"><img class="flag" src="https://flagcdn.com/w80/es.png" alt="Spain flag">Spain</a>
+                            </td>
+                            <td>2011.57</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/ar.png" alt="Argentina flag">Argentina</td>
+                            <td>1972.80</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/fr.png" alt="France flag">France</td>
+                            <td>1958.86</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/gb-eng.png" alt="England flag">England</td>
+                            <td>1925.59</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/pt.png" alt="Portugal flag">Portugal</td>
+                            <td>1807.69</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/br.png" alt="Brazil flag">Brazil</td>
+                            <td>1806.51</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/ma.png" alt="Morocco flag">Morocco</td>
+                            <td>1805.34</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/be.png" alt="Belgium flag">Belgium</td>
+                            <td>1779.17</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/nl.png" alt="Netherlands flag">Netherlands</td>
+                            <td>1778.61</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td><img class="flag" src="https://flagcdn.com/w80/mx.png" alt="Mexico flag">Mexico</td>
+                            <td>1738.48</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="aside-link" href="detail.html">Show full rankings</a>
             </aside>
         </section>
 
         <section class="cards-gallery">
             <article class="card">
-                <h3>Project</h3>
-                <button class="btn-card">Register</button>
+                <h3><img class="flag" src="https://flagcdn.com/w80/es.png" alt="Spain flag">Spain 1&ndash;0 <img class="flag" src="https://flagcdn.com/w80/ar.png" alt="Argentina flag">Argentina</h3>
+                <p>Ferran Torres scored in the 106th minute at MetLife Stadium to give Spain its second World Cup title, in front of 80,663 fans.</p>
+                <a class="btn-card" href="detail.html">View Team</a>
             </article>
 
             <article class="card">
-                <h3>Project</h3>
-                <button class="btn-card">Register</button>
+                <h3>Rankings After the Break</h3>
+                <p>Spain leads with 2011.57 points and is the only team above 2000. Portugal climbed to fifth, while Brazil slipped out of the top five.</p>
+                <a class="btn-card" href="detail.html">View Team</a>
             </article>
 
             <article class="card">
-                <h3>Project</h3>
-                <button class="btn-card">Register</button>
+                <h3><img class="flag" src="https://flagcdn.com/w80/es.png" alt="Spain flag">Player Spotlight: Rodri</h3>
+                <p>The Golden Ball winner anchored Spain's midfield all tournament, and Unai Sim&oacute;n took the Golden Glove behind him.</p>
+                <a class="btn-card" href="detail.html">View Team</a>
             </article>
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>&copy; 2026 Brand Identity</p>
-        <p>Social Links / GitHub / Email</p>
+        <p>&copy; CCT360 - Project 1</p>
+        <p>Sources: <a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final">Wikipedia</a> &middot; <a href="https://inside.fifa.com/fifa-rankings/world-ranking/men">Official FIFA Page</a> &middot; <a href="https://github.com/ah6uhm/project1">GitHub</a></p>
     </footer>
 </body>
 </html>
-
-
-<!-- Theme Idea: Choose a sport and talk about results of a weekend game (3 cards have: results, rankings after result, interview with player)
-Then page 2 after clicking on a team has more info about the team -->
